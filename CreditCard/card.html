@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lecture 2 - CSS Homeword Credit Card Form</title>
+        <link rel="stylesheet" href="css/card.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Credit Card Form</h1>
+        </header>
+        <main>
+            <div class="creditCardForm">
+                <form name="creditCardForm" action="POST">
+                    <input type="text" name="creditCard" value="Enter Card Number">
+                    <div class="secondRow">
+                        <div>
+                            <label for="expiryMonth">Expiry Month</label>
+                            <input type="text" id="expiryMonth" value="MM">
+                        </div>
+                        <div>
+                            <label for="expiryYear">Expiry Year</label>
+                            <input type="text" id="expiryYear" value="YY">
+                        </div>
+                        <div>
+                            <label for="CCV">CCV</label>
+                            <input type="text" id="CCV" value="CCV">
+                        </div>
+                        <div>
+                            <img src="images/creditCard.png" alt="creditCard" />
+                        </div>
+                    </div>
+                    <input type="text" name="nameOnTheCard" value="Name On The Card">
+                    <span>
+                        <input type="checkbox" checked="checked" name="save" value="1">
+                        <span>Save details for fast payments</span>
+                        <a href="">learn how?</a>
+                    </span>
+                    <input type="reset" name="cancel" value="Cancel">
+                    <input type="submit" name="submit" value="Pay now">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

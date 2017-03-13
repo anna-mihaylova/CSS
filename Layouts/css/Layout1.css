@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+}
+
+header, main, div, footer {
+    margin: auto;
+    margin-bottom: 0.7%;
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    width: 90%;
+    height: 120px;
+    background-color: #336666;
+}
+
+main {
+    width: 70%;
+    height: 200px;
+    background-color: #008000;
+}
+
+footer {
+    display: flex;
+    width: 70%;
+}
+
+footer > div:first-child {
+    margin-right: 3%;
+    background-color: #800080;
+}
+
+footer > div {
+    width: 48.5%;
+    height: 40px;
+    margin-right: 0;
+    background-color: #0000ff;
+}

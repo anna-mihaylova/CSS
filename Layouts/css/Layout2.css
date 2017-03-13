@@ -1,0 +1,35 @@
+body {
+    width: 99%;
+}
+
+header, section, footer {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.7%;
+    display: flex;
+}
+
+header, footer {
+    height: 40px;
+    background-color: #000066;
+}
+
+footer {
+    background-color: #0000ff;
+}
+
+article {
+    width: 35%;
+    height: 380px;
+    display: flex;
+}
+
+.leftArticle {
+    background-color: #800080;
+    margin-right: 3%
+}
+
+.rightArticle {
+    width: 62%;
+    background-color: #008000;
+}

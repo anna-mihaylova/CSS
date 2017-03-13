@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+main {
+    width: 35%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    border: 5px solid #000;
+}
+
+.creditCardForm {
+    width: 96%;
+    margin: auto;
+    padding: 2%;
+    background-color: #f0f0f0;
+    border: 1px solid #bfbbbb;
+    border-radius: 0.3em;
+}
+
+input {
+    display: block;
+    width: 92%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #bfbbbb;
+    border-radius: 0.3em;
+    color: #c6c4c4;
+    line-height: 20px;
+}
+.secondRow {
+    width: 104%;
+    margin: 2%;
+}
+
+div {
+    width: 18%;
+    margin: 2% 3.5%;
+    display: inline-block;
+}
+
+div:last-child {
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+div>input {
+    margin-top: 5%;
+    padding: 11% 1%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+div>label {
+    font-size: 0.8em;
+}
+
+.secondRow>div:first-child {
+    margin-left: 0;
+}
+
+.secondRow>div:last-child {
+    margin-right: 0;
+}
+
+input[type="reset"], input[type="submit"] {
+    height: 10%;
+    margin-top: 4%;
+    padding: 2% 1%;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.7;
+    color: #ffffff;
+    border-radius: 0.3em;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+    opacity: 1;
+}
+
+input[type="reset"] {
+    width: 20%;
+    background-color: #d9534f;
+    border: 1px solid #d43f3a;
+}
+
+input[type="submit"] {
+    width: 40%;
+    background-color: #f0ad4e;
+    border: 1px solid #eea236;
+    float: right;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin-right: 0;
+    margin-top: 4%;
+}
+
+span input {
+    display: inline;
+    width: 10%;
+}
+
+a {
+    color: #428bca;
+    text-decoration:none;
+}
+
+img {
+    width: 80%;
+    vertical-align: middle;
+}
